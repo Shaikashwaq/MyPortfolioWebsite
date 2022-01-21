@@ -161,7 +161,17 @@ box-shadow: 9px 5px 28px 4px #f4c0158f;
     margin: 0 auto; 
     border-radius: 10px;
     
+}  
+.partition{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly; 
+    border: 2px solid steelblue;
 } 
+.partition{
+    margin: 5px;
+    padding: 5px;
+}
 .s3-wrapper{
     display: grid;
     justify-content: space-evenly; 
@@ -288,7 +298,12 @@ box-shadow: 9px 5px 28px 4px #f4c0158f;
             border-top: 3px solid gray; 
             border-bottom: 3px solid gray; 
             padding: 5px;
-        }
+        } 
+        .more{
+            margin: 10px;
+           
+        } 
+        
     } 
 
 
@@ -321,7 +336,8 @@ box-shadow: 9px 5px 28px 4px #f4c0158f;
     .nav-links a {
         color: rgb(24, 16, 16); 
        
-        padding: 10px;
+        padding: 10px; 
+
        
      
     }
